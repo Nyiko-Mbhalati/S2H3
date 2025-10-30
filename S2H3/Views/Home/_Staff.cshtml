@@ -1,0 +1,29 @@
+﻿<div>
+    <h1>Staff</h1>
+    @Html.ActionLink("Create", "CreateStaff", "Home")
+</div>
+<div>
+    <div>
+        <label>FrstName:</label>
+        <input type="text" name="FrstName" value="" />
+    </div>
+    <div>
+        <label>LastName:</label>
+        <input type="text" name="LastName" value="" />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input type="email" name="Email" value="" />
+    </div>
+    <div>
+        <label>Phone:</label>
+        <input type="tel" name="Phone" value="" />
+    </div>
+    <div>
+        <label>Active:</label>
+        @Html.CheckBox("Active", false)
+    </div>
+</div>
+<div>
+
+</div>
